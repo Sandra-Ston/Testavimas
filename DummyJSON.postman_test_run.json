@@ -1,0 +1,3511 @@
+{
+	"id": "39e82e4c-218a-4747-a7ff-f352b3953e2e",
+	"name": "DummyJSON",
+	"timestamp": "2025-01-24T10:46:55.781Z",
+	"collection_id": "41112391-4863caf3-122c-44e3-a089-4955185532f4",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 236,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-01-24T10:46:38.414Z",
+	"totalFail": 8,
+	"results": [
+		{
+			"id": "97be9c0d-0e51-4ba8-b88e-8061ce9f933e",
+			"name": "Generate_square_image",
+			"url": "https://dummyjson.com/image/150",
+			"time": 409,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": false
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				409
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": false
+				}
+			]
+		},
+		{
+			"id": "24f20257-e49d-4a16-9fbf-9b8953c01bb1",
+			"name": "Generate_image_with_custom_text",
+			"url": "https://dummyjson.com/image/400x200/008080/ffffff?text=Hello+Peter",
+			"time": 142,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": false
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				142
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": false
+				}
+			]
+		},
+		{
+			"id": "5026cb10-108a-4a40-bf4c-dd1ab5ae9f88",
+			"name": "Generate image with different formats",
+			"url": "https://dummyjson.com/image/400x200?type=webp&text=I+am+a+webp+image",
+			"time": 151,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": false
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				151
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": false
+				}
+			]
+		},
+		{
+			"id": "3358ea9a-09bb-47d7-97bb-36ef9cc58f51",
+			"name": "Generate image with custom colors",
+			"url": "https://dummyjson.com/image/400x200/282828",
+			"time": 141,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": false
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				141
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": false
+				}
+			]
+		},
+		{
+			"id": "4e8215d9-665d-44ee-8775-063e2fbed6da",
+			"name": "Generate image with custom font family",
+			"url": "https://dummyjson.com/image/400x200/282828?fontFamily=pacifico&text=I+am+a+pacifico+font",
+			"time": 137,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": false
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				137
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": false
+				}
+			]
+		},
+		{
+			"id": "47741bda-d86b-4635-b528-7416614a142b",
+			"name": "Generate image with custom font size",
+			"url": "https://dummyjson.com/image/400x200/008080/ffffff?text=Hello+Peter!&fontSize=16",
+			"time": 136,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": false
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				136
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": false
+				}
+			]
+		},
+		{
+			"id": "767f48d0-6b91-48ca-8b7e-be7f22ed125f",
+			"name": "Generate identicon",
+			"url": "https://dummyjson.com/icon/abc123/150",
+			"time": 128,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": false
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				128
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": false
+				}
+			]
+		},
+		{
+			"id": "c3639e6d-9bdf-4467-85ae-768e659bf21b",
+			"name": "Generate_custom_size_image",
+			"url": "https://dummyjson.com/image/200x100",
+			"time": 132,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": false
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				132
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": false
+				}
+			]
+		},
+		{
+			"id": "b7d7df75-27f8-4c59-bea4-45d6c5efc5ec",
+			"name": "Login user and get tokens",
+			"url": "https://dummyjson.com/auth/login",
+			"time": 127,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				127
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "422424ae-69d5-4e15-9b9c-067cdab17f7a",
+			"name": "Get current auth user",
+			"url": "https://dummyjson.com/auth/me",
+			"time": 127,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				127
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "2077a33d-6e09-4e9b-9e83-8665075c2c8c",
+			"name": "Refresh auth session",
+			"url": "https://dummyjson.com/auth/refresh",
+			"time": 125,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				125
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "76e4ade1-51bb-427d-83d9-5fa0236b2997",
+			"name": "Get all products",
+			"url": "https://dummyjson.com/products",
+			"time": 133,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				133
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "64e3eb62-d6df-4f4e-adb1-803c974336b1",
+			"name": "Get a single product",
+			"url": "https://dummyjson.com/products/1",
+			"time": 125,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				125
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "f8541bba-2693-47ed-978b-2c14ab4d2e97",
+			"name": "Search products",
+			"url": "https://dummyjson.com/products/search?q=phone",
+			"time": 128,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				128
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "f83b0ae4-e2e6-47f0-bf26-0df2b471cece",
+			"name": "Limit and skip products",
+			"url": "https://dummyjson.com/products?limit=10&skip=10&select=title,price",
+			"time": 128,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				128
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "a519f8d3-cb33-4a58-bdd2-2c7c8107424f",
+			"name": "Sort products",
+			"url": "https://dummyjson.com/products?sortBy=title&order=asc",
+			"time": 129,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				129
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "2fbb02d2-7e6d-497b-ae96-4b03836aa5f4",
+			"name": "Get all products categories",
+			"url": "https://dummyjson.com/products/categories",
+			"time": 128,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				128
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "9585b1bc-6f5c-4082-bca2-21a88ecb4e5b",
+			"name": "Get products category list",
+			"url": "https://dummyjson.com/products/category-list",
+			"time": 125,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				125
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "a2145c94-4733-40d7-97ec-865a6031e7df",
+			"name": "Get products by a category",
+			"url": "https://dummyjson.com/products/category/smartphones",
+			"time": 129,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				129
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "82625400-903f-4997-953a-6a2470977de1",
+			"name": "Add a new product",
+			"url": "https://dummyjson.com/products/add",
+			"time": 136,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				136
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "65060a90-465c-4627-8f88-9d03e578bb71",
+			"name": "Update a product",
+			"url": "https://dummyjson.com/products/1",
+			"time": 132,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				132
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "4fb20738-663f-48c9-b690-83e773b82eae",
+			"name": "Delete a product",
+			"url": "https://dummyjson.com/products/1",
+			"time": 126,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				126
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "c8368ea6-663b-452b-802a-c5a972c534e3",
+			"name": "Get all carts",
+			"url": "https://dummyjson.com/carts",
+			"time": 127,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				127
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "a09e58aa-0800-4989-a936-522b029a4607",
+			"name": "Get a single cart",
+			"url": "https://dummyjson.com/carts/1",
+			"time": 127,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				127
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "7d17e704-ff12-4de4-8181-adb0f5c155ab",
+			"name": "Get carts by a user",
+			"url": "https://dummyjson.com/carts/user/5",
+			"time": 127,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				127
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "ed5f7b24-c975-435f-bd91-bab57ec8d403",
+			"name": "Add a new cart",
+			"url": "https://dummyjson.com/carts/add",
+			"time": 124,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				124
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "07394ae7-d5fd-48a9-94a3-1b76bbb0c4e9",
+			"name": "Update a cart",
+			"url": "https://dummyjson.com/carts/1",
+			"time": 126,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				126
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "88455048-e954-4a59-83cf-cdf5112e2841",
+			"name": "Delete a cart",
+			"url": "https://dummyjson.com/carts/1",
+			"time": 126,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				126
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "7bdead6f-f4e6-4404-84ec-bf24b9b4966d",
+			"name": "Get all recipes",
+			"url": "https://dummyjson.com/recipes",
+			"time": 127,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				127
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "09e4548b-3eb3-42da-8372-b07d2dbff2c2",
+			"name": "Get a single recipe",
+			"url": "https://dummyjson.com/recipes/1",
+			"time": 125,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				125
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "24671fc6-8f0a-442f-a149-0e6b441d2f53",
+			"name": "Search recipes",
+			"url": "https://dummyjson.com/recipes/search?q=Margherita",
+			"time": 127,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				127
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "b2c20efa-ba8a-4cb9-a773-87b26e60cfbe",
+			"name": "Limit and skip recipes",
+			"url": "https://dummyjson.com/recipes?limit=10&skip=10&select=name,image",
+			"time": 128,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				128
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "aac3a47f-730e-4755-9c51-a550f01737a4",
+			"name": "Sort recipes",
+			"url": "https://dummyjson.com/recipes?sortBy=name&order=asc",
+			"time": 135,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				135
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "bf64f065-f2b7-49d3-800d-3a6c0fb4f858",
+			"name": "Get all recipes tags",
+			"url": "https://dummyjson.com/recipes/tags",
+			"time": 126,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				126
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "beb25235-dbd0-4e69-ad4b-e5e2f6bada68",
+			"name": "Get recipes by a tag",
+			"url": "https://dummyjson.com/recipes/tag/Pakistani",
+			"time": 138,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				138
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "635d8696-44a8-4f5b-8b33-b5d9c990a4ba",
+			"name": "Get recipes by a meal",
+			"url": "https://dummyjson.com/recipes/meal-type/snack",
+			"time": 129,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				129
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "853ec600-cb69-4420-876a-9d6737f803fe",
+			"name": "Get all users",
+			"url": "https://dummyjson.com/users",
+			"time": 131,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				131
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "06428654-96a1-41bb-ae54-b39f9392a04e",
+			"name": "Login user and get tokens",
+			"url": "https://dummyjson.com/user/login",
+			"time": 125,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				125
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "ab79b026-3ce9-4364-98f3-e546accb6d07",
+			"name": "Get current authenticated user",
+			"url": "https://dummyjson.com/user/me",
+			"time": 126,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				126
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "992c0747-a103-42e7-a2cc-67688493a741",
+			"name": "Get a single user",
+			"url": "https://dummyjson.com/users/1",
+			"time": 126,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				126
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "6ea0af6e-6e15-4e95-bfbe-270b8f284465",
+			"name": "Search users",
+			"url": "https://dummyjson.com/users/search?q=John",
+			"time": 124,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				124
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "1f9eee26-f670-4b4c-9815-d1a8ea127d60",
+			"name": "Filter users",
+			"url": "https://dummyjson.com/users/filter?key=hair.color&value=Brown",
+			"time": 126,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				126
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "ab9d3c88-2cd8-4f23-b99d-23a801edec88",
+			"name": "Limit and skip users",
+			"url": "https://dummyjson.com/users?limit=5&skip=10&select=firstName,age",
+			"time": 131,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				131
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "90904a97-3f1a-4aff-a7f5-d6335ef7cafc",
+			"name": "Sort users",
+			"url": "https://dummyjson.com/users?sortBy=firstName&order=asc",
+			"time": 127,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				127
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "f260f133-17ca-448e-b24f-11d08ac68d06",
+			"name": "Get user's carts by user id",
+			"url": "https://dummyjson.com/users/6/carts",
+			"time": 124,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				124
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "e7378ceb-6eac-4da9-a82e-0c0d66d72b85",
+			"name": "Get user's posts by user id",
+			"url": "https://dummyjson.com/users/5/posts",
+			"time": 124,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				124
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "db8f1f22-cc64-4e95-b5e9-0c274473be47",
+			"name": "Add a new user",
+			"url": "https://dummyjson.com/users/add",
+			"time": 128,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				128
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "6dc12a1b-2887-43f9-a812-929211189820",
+			"name": "Update a user",
+			"url": "https://dummyjson.com/users/2",
+			"time": 126,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				126
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "e1ff2008-f22a-470d-9730-da3391bdeffc",
+			"name": "Delete a user",
+			"url": "https://dummyjson.com/users/1",
+			"time": 124,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				124
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "3a3e46b9-195b-4b4a-ab70-127d249e9e96",
+			"name": "Get all posts",
+			"url": "https://dummyjson.com/posts",
+			"time": 127,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				127
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "b2b59e16-441d-4d98-8711-e43b46d23ef4",
+			"name": "Get a single post",
+			"url": "https://dummyjson.com/posts/1",
+			"time": 124,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				124
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "c7f2a578-5d80-4697-af3b-4366236ccf53",
+			"name": "Search posts",
+			"url": "https://dummyjson.com/posts/search?q=love",
+			"time": 142,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				142
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "6c0f3883-2079-4736-bbc3-27ac2695fd57",
+			"name": "Limit and skip posts",
+			"url": "https://dummyjson.com/posts?limit=10&skip=10&select=title,reactions,userId",
+			"time": 127,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				127
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "99fa66a9-616c-4b44-87b0-ebb2a5524a61",
+			"name": "Sort posts",
+			"url": "https://dummyjson.com/posts?sortBy=title&order=asc",
+			"time": 128,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				128
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "eba0c632-40f7-42c6-a2ff-e1f94ad42e74",
+			"name": "Get all posts tags",
+			"url": "https://dummyjson.com/posts/tags",
+			"time": 126,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				126
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "eeef41ea-e034-4907-a84f-2484d6585f5e",
+			"name": "Get posts tag list",
+			"url": "https://dummyjson.com/posts/tag-list",
+			"time": 132,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				132
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "460e1bfd-c7d8-4f49-9995-e7381e245806",
+			"name": "Get posts by a tag",
+			"url": "https://dummyjson.com/posts/tag/life",
+			"time": 127,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				127
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "ca793961-54c4-4503-9243-79eeeac90d53",
+			"name": "Get all posts by user id",
+			"url": "https://dummyjson.com/posts/user/5",
+			"time": 126,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				126
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "0b6029ef-542c-4541-a2fd-6311a47428d5",
+			"name": "Get post's comments",
+			"url": "https://dummyjson.com/posts/1/comments",
+			"time": 126,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				126
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "054fde38-3ea1-4d0f-94a5-febca5b8da1a",
+			"name": "Add a new post",
+			"url": "https://dummyjson.com/posts/add",
+			"time": 126,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				126
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "8a45479d-6b70-412b-9b26-82e89659c91a",
+			"name": "Update a post",
+			"url": "https://dummyjson.com/posts/1",
+			"time": 143,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				143
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "22943d7c-8a01-41f8-b028-fc37d875bc18",
+			"name": "Delete a post",
+			"url": "https://dummyjson.com/posts/1",
+			"time": 125,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				125
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "5aacb9f5-cb81-4f18-a357-412c17dee6d1",
+			"name": "Get all comments",
+			"url": "https://dummyjson.com/comments",
+			"time": 127,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true,
+				"Verify the number of comments for post with id=46": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify the number of comments for post with id=46": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				127
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true,
+					"Verify the number of comments for post with id=46": true
+				}
+			]
+		},
+		{
+			"id": "47fba819-63c2-4c41-9dfa-0cb4f099a3e8",
+			"name": "Get a single comment",
+			"url": "https://dummyjson.com/comments/1",
+			"time": 124,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				124
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "eb463c58-0a90-4e18-bba6-05c4d15a4aaf",
+			"name": "Limit and skip comments",
+			"url": "https://dummyjson.com/comments?limit=10&skip=10&select=body,postId",
+			"time": 124,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				124
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "29e3fc41-cab4-4574-ac6e-5babd55ba510",
+			"name": "Get all comments by post id",
+			"url": "https://dummyjson.com/comments/post/6",
+			"time": 124,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				124
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "16e99789-32aa-4f85-ab88-89992e0b5e64",
+			"name": "Add a new comment",
+			"url": "https://dummyjson.com/comments/add",
+			"time": 124,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				124
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "913141fa-7711-4725-bd52-65204c99a35a",
+			"name": "Update a comment",
+			"url": "https://dummyjson.com/comments/1",
+			"time": 126,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				126
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "2f5e7f34-96e5-48ab-9ec9-16450d2ee5ff",
+			"name": "Delete a comment",
+			"url": "https://dummyjson.com/comments/1",
+			"time": 130,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				130
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "92c4df81-1865-4f1f-b0d2-851d15d6c27d",
+			"name": "Get all todos",
+			"url": "https://dummyjson.com/todos",
+			"time": 124,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				124
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "7db06e7f-8fd9-4f1e-a30f-7198f592f6a6",
+			"name": "Get a single todo",
+			"url": "https://dummyjson.com/todos/1",
+			"time": 139,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				139
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "17877841-91d2-42a5-b61c-c2f9b77445a4",
+			"name": "Get a random todo",
+			"url": "https://dummyjson.com/todos/random",
+			"time": 129,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				129
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "3d00fe35-0aa2-4741-95e8-9d0b1ff18b7f",
+			"name": "Limit and skip todos",
+			"url": "https://dummyjson.com/todos?limit=3&skip=10",
+			"time": 124,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				124
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "9870d1ce-d2fa-44af-95d7-5e2f11bb8bfc",
+			"name": "Get all todos by user id",
+			"url": "https://dummyjson.com/todos/user/5",
+			"time": 126,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				126
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "59d645b4-37bc-4862-8138-56f156612eef",
+			"name": "Add a new todo",
+			"url": "https://dummyjson.com/todos/add",
+			"time": 124,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				124
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "cbb2f60d-4eab-4664-8519-84c1229f34f8",
+			"name": "Update a todo",
+			"url": "https://dummyjson.com/todos/1",
+			"time": 124,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				124
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "eb35da2d-d237-44de-beab-4730e152e4c3",
+			"name": "Delete a todo",
+			"url": "https://dummyjson.com/todos/1",
+			"time": 124,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				124
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "880ea63a-4daf-42a8-8c71-f0617fc50566",
+			"name": "Get all quotes",
+			"url": "https://dummyjson.com/quotes",
+			"time": 139,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				139
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "a83c7c55-58ee-48e8-9a8c-cf36389ba24e",
+			"name": "Get a single quote",
+			"url": "https://dummyjson.com/quotes/1",
+			"time": 137,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				137
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "c0bb0991-c6ce-4bb8-bec2-ee77fde756ed",
+			"name": "Get a random quote",
+			"url": "https://dummyjson.com/quotes/random",
+			"time": 127,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				127
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		},
+		{
+			"id": "2835f45b-4439-42e1-9755-656d46007e8c",
+			"name": "Limit and skip quotes",
+			"url": "https://dummyjson.com/quotes?limit=3&skip=10",
+			"time": 134,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				134
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 10717,
+	"collection": {
+		"requests": [
+			{
+				"id": "97be9c0d-0e51-4ba8-b88e-8061ce9f933e",
+				"method": "GET"
+			},
+			{
+				"id": "24f20257-e49d-4a16-9fbf-9b8953c01bb1",
+				"method": "GET"
+			},
+			{
+				"id": "5026cb10-108a-4a40-bf4c-dd1ab5ae9f88",
+				"method": "GET"
+			},
+			{
+				"id": "3358ea9a-09bb-47d7-97bb-36ef9cc58f51",
+				"method": "GET"
+			},
+			{
+				"id": "4e8215d9-665d-44ee-8775-063e2fbed6da",
+				"method": "GET"
+			},
+			{
+				"id": "47741bda-d86b-4635-b528-7416614a142b",
+				"method": "GET"
+			},
+			{
+				"id": "767f48d0-6b91-48ca-8b7e-be7f22ed125f",
+				"method": "GET"
+			},
+			{
+				"id": "c3639e6d-9bdf-4467-85ae-768e659bf21b",
+				"method": "GET"
+			},
+			{
+				"id": "b7d7df75-27f8-4c59-bea4-45d6c5efc5ec",
+				"method": "POST"
+			},
+			{
+				"id": "422424ae-69d5-4e15-9b9c-067cdab17f7a",
+				"method": "GET"
+			},
+			{
+				"id": "2077a33d-6e09-4e9b-9e83-8665075c2c8c",
+				"method": "POST"
+			},
+			{
+				"id": "76e4ade1-51bb-427d-83d9-5fa0236b2997",
+				"method": "GET"
+			},
+			{
+				"id": "64e3eb62-d6df-4f4e-adb1-803c974336b1",
+				"method": "GET"
+			},
+			{
+				"id": "f8541bba-2693-47ed-978b-2c14ab4d2e97",
+				"method": "GET"
+			},
+			{
+				"id": "f83b0ae4-e2e6-47f0-bf26-0df2b471cece",
+				"method": "GET"
+			},
+			{
+				"id": "a519f8d3-cb33-4a58-bdd2-2c7c8107424f",
+				"method": "GET"
+			},
+			{
+				"id": "2fbb02d2-7e6d-497b-ae96-4b03836aa5f4",
+				"method": "GET"
+			},
+			{
+				"id": "9585b1bc-6f5c-4082-bca2-21a88ecb4e5b",
+				"method": "GET"
+			},
+			{
+				"id": "a2145c94-4733-40d7-97ec-865a6031e7df",
+				"method": "GET"
+			},
+			{
+				"id": "82625400-903f-4997-953a-6a2470977de1",
+				"method": "POST"
+			},
+			{
+				"id": "65060a90-465c-4627-8f88-9d03e578bb71",
+				"method": "PUT"
+			},
+			{
+				"id": "4fb20738-663f-48c9-b690-83e773b82eae",
+				"method": "DELETE"
+			},
+			{
+				"id": "c8368ea6-663b-452b-802a-c5a972c534e3",
+				"method": "GET"
+			},
+			{
+				"id": "a09e58aa-0800-4989-a936-522b029a4607",
+				"method": "GET"
+			},
+			{
+				"id": "7d17e704-ff12-4de4-8181-adb0f5c155ab",
+				"method": "GET"
+			},
+			{
+				"id": "ed5f7b24-c975-435f-bd91-bab57ec8d403",
+				"method": "POST"
+			},
+			{
+				"id": "07394ae7-d5fd-48a9-94a3-1b76bbb0c4e9",
+				"method": "PUT"
+			},
+			{
+				"id": "88455048-e954-4a59-83cf-cdf5112e2841",
+				"method": "DELETE"
+			},
+			{
+				"id": "7bdead6f-f4e6-4404-84ec-bf24b9b4966d",
+				"method": "GET"
+			},
+			{
+				"id": "09e4548b-3eb3-42da-8372-b07d2dbff2c2",
+				"method": "GET"
+			},
+			{
+				"id": "24671fc6-8f0a-442f-a149-0e6b441d2f53",
+				"method": "GET"
+			},
+			{
+				"id": "b2c20efa-ba8a-4cb9-a773-87b26e60cfbe",
+				"method": "GET"
+			},
+			{
+				"id": "aac3a47f-730e-4755-9c51-a550f01737a4",
+				"method": "GET"
+			},
+			{
+				"id": "bf64f065-f2b7-49d3-800d-3a6c0fb4f858",
+				"method": "GET"
+			},
+			{
+				"id": "beb25235-dbd0-4e69-ad4b-e5e2f6bada68",
+				"method": "GET"
+			},
+			{
+				"id": "635d8696-44a8-4f5b-8b33-b5d9c990a4ba",
+				"method": "GET"
+			},
+			{
+				"id": "853ec600-cb69-4420-876a-9d6737f803fe",
+				"method": "GET"
+			},
+			{
+				"id": "06428654-96a1-41bb-ae54-b39f9392a04e",
+				"method": "POST"
+			},
+			{
+				"id": "ab79b026-3ce9-4364-98f3-e546accb6d07",
+				"method": "GET"
+			},
+			{
+				"id": "992c0747-a103-42e7-a2cc-67688493a741",
+				"method": "GET"
+			},
+			{
+				"id": "6ea0af6e-6e15-4e95-bfbe-270b8f284465",
+				"method": "GET"
+			},
+			{
+				"id": "1f9eee26-f670-4b4c-9815-d1a8ea127d60",
+				"method": "GET"
+			},
+			{
+				"id": "ab9d3c88-2cd8-4f23-b99d-23a801edec88",
+				"method": "GET"
+			},
+			{
+				"id": "90904a97-3f1a-4aff-a7f5-d6335ef7cafc",
+				"method": "GET"
+			},
+			{
+				"id": "f260f133-17ca-448e-b24f-11d08ac68d06",
+				"method": "GET"
+			},
+			{
+				"id": "e7378ceb-6eac-4da9-a82e-0c0d66d72b85",
+				"method": "GET"
+			},
+			{
+				"id": "db8f1f22-cc64-4e95-b5e9-0c274473be47",
+				"method": "POST"
+			},
+			{
+				"id": "6dc12a1b-2887-43f9-a812-929211189820",
+				"method": "PATCH"
+			},
+			{
+				"id": "e1ff2008-f22a-470d-9730-da3391bdeffc",
+				"method": "DELETE"
+			},
+			{
+				"id": "3a3e46b9-195b-4b4a-ab70-127d249e9e96",
+				"method": "GET"
+			},
+			{
+				"id": "b2b59e16-441d-4d98-8711-e43b46d23ef4",
+				"method": "GET"
+			},
+			{
+				"id": "c7f2a578-5d80-4697-af3b-4366236ccf53",
+				"method": "GET"
+			},
+			{
+				"id": "6c0f3883-2079-4736-bbc3-27ac2695fd57",
+				"method": "GET"
+			},
+			{
+				"id": "99fa66a9-616c-4b44-87b0-ebb2a5524a61",
+				"method": "GET"
+			},
+			{
+				"id": "eba0c632-40f7-42c6-a2ff-e1f94ad42e74",
+				"method": "GET"
+			},
+			{
+				"id": "eeef41ea-e034-4907-a84f-2484d6585f5e",
+				"method": "GET"
+			},
+			{
+				"id": "460e1bfd-c7d8-4f49-9995-e7381e245806",
+				"method": "GET"
+			},
+			{
+				"id": "ca793961-54c4-4503-9243-79eeeac90d53",
+				"method": "GET"
+			},
+			{
+				"id": "0b6029ef-542c-4541-a2fd-6311a47428d5",
+				"method": "GET"
+			},
+			{
+				"id": "054fde38-3ea1-4d0f-94a5-febca5b8da1a",
+				"method": "POST"
+			},
+			{
+				"id": "8a45479d-6b70-412b-9b26-82e89659c91a",
+				"method": "PUT"
+			},
+			{
+				"id": "22943d7c-8a01-41f8-b028-fc37d875bc18",
+				"method": "DELETE"
+			},
+			{
+				"id": "5aacb9f5-cb81-4f18-a357-412c17dee6d1",
+				"method": "GET"
+			},
+			{
+				"id": "47fba819-63c2-4c41-9dfa-0cb4f099a3e8",
+				"method": "GET"
+			},
+			{
+				"id": "eb463c58-0a90-4e18-bba6-05c4d15a4aaf",
+				"method": "GET"
+			},
+			{
+				"id": "29e3fc41-cab4-4574-ac6e-5babd55ba510",
+				"method": "GET"
+			},
+			{
+				"id": "16e99789-32aa-4f85-ab88-89992e0b5e64",
+				"method": "POST"
+			},
+			{
+				"id": "913141fa-7711-4725-bd52-65204c99a35a",
+				"method": "PATCH"
+			},
+			{
+				"id": "2f5e7f34-96e5-48ab-9ec9-16450d2ee5ff",
+				"method": "DELETE"
+			},
+			{
+				"id": "92c4df81-1865-4f1f-b0d2-851d15d6c27d",
+				"method": "GET"
+			},
+			{
+				"id": "7db06e7f-8fd9-4f1e-a30f-7198f592f6a6",
+				"method": "GET"
+			},
+			{
+				"id": "17877841-91d2-42a5-b61c-c2f9b77445a4",
+				"method": "GET"
+			},
+			{
+				"id": "3d00fe35-0aa2-4741-95e8-9d0b1ff18b7f",
+				"method": "GET"
+			},
+			{
+				"id": "9870d1ce-d2fa-44af-95d7-5e2f11bb8bfc",
+				"method": "GET"
+			},
+			{
+				"id": "59d645b4-37bc-4862-8138-56f156612eef",
+				"method": "POST"
+			},
+			{
+				"id": "cbb2f60d-4eab-4664-8519-84c1229f34f8",
+				"method": "PATCH"
+			},
+			{
+				"id": "eb35da2d-d237-44de-beab-4730e152e4c3",
+				"method": "DELETE"
+			},
+			{
+				"id": "880ea63a-4daf-42a8-8c71-f0617fc50566",
+				"method": "GET"
+			},
+			{
+				"id": "a83c7c55-58ee-48e8-9a8c-cf36389ba24e",
+				"method": "GET"
+			},
+			{
+				"id": "c0bb0991-c6ce-4bb8-bec2-ee77fde756ed",
+				"method": "GET"
+			},
+			{
+				"id": "2835f45b-4439-42e1-9755-656d46007e8c",
+				"method": "GET"
+			}
+		]
+	}
+}
