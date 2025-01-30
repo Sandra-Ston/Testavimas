@@ -1,0 +1,261 @@
+{
+	"id": "7bfd2599-08c3-477e-8331-acc5d76e2acd",
+	"name": "DummyJSON",
+	"timestamp": "2025-01-30T17:58:52.637Z",
+	"collection_id": "41112391-4863caf3-122c-44e3-a089-4955185532f4",
+	"folder_id": 0,
+	"environment_id": "41112391-f4f1676f-75a1-43fc-8575-8d3fd70b09c9",
+	"totalPass": 120,
+	"delay": "20",
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-01-30T17:58:45.438Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "0022a322-f5dc-4992-97c0-b13aec2254f0",
+			"name": "Auto Get products by a category",
+			"url": "https://dummyjson.com/products/category/womens-watches",
+			"time": 128,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 2xx": true,
+				"Response Content-Type includes json, webp, jpg, or png": true,
+				"Response JSON does not contain 'error' element": true,
+				"Statusas yra 200": true,
+				"Produktų kiekis yra didesnis nei 0": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2xx": {
+					"pass": 24,
+					"fail": 0
+				},
+				"Response Content-Type includes json, webp, jpg, or png": {
+					"pass": 24,
+					"fail": 0
+				},
+				"Response JSON does not contain 'error' element": {
+					"pass": 24,
+					"fail": 0
+				},
+				"Statusas yra 200": {
+					"pass": 24,
+					"fail": 0
+				},
+				"Produktų kiekis yra didesnis nei 0": {
+					"pass": 24,
+					"fail": 0
+				}
+			},
+			"times": [
+				426,
+				128,
+				128,
+				133,
+				128,
+				130,
+				131,
+				124,
+				125,
+				134,
+				124,
+				125,
+				125,
+				128,
+				130,
+				126,
+				133,
+				127,
+				127,
+				135,
+				128,
+				128,
+				125,
+				128
+			],
+			"allTests": [
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true,
+					"Statusas yra 200": true,
+					"Produktų kiekis yra didesnis nei 0": true
+				},
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true,
+					"Statusas yra 200": true,
+					"Produktų kiekis yra didesnis nei 0": true
+				},
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true,
+					"Statusas yra 200": true,
+					"Produktų kiekis yra didesnis nei 0": true
+				},
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true,
+					"Statusas yra 200": true,
+					"Produktų kiekis yra didesnis nei 0": true
+				},
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true,
+					"Statusas yra 200": true,
+					"Produktų kiekis yra didesnis nei 0": true
+				},
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true,
+					"Statusas yra 200": true,
+					"Produktų kiekis yra didesnis nei 0": true
+				},
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true,
+					"Statusas yra 200": true,
+					"Produktų kiekis yra didesnis nei 0": true
+				},
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true,
+					"Statusas yra 200": true,
+					"Produktų kiekis yra didesnis nei 0": true
+				},
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true,
+					"Statusas yra 200": true,
+					"Produktų kiekis yra didesnis nei 0": true
+				},
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true,
+					"Statusas yra 200": true,
+					"Produktų kiekis yra didesnis nei 0": true
+				},
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true,
+					"Statusas yra 200": true,
+					"Produktų kiekis yra didesnis nei 0": true
+				},
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true,
+					"Statusas yra 200": true,
+					"Produktų kiekis yra didesnis nei 0": true
+				},
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true,
+					"Statusas yra 200": true,
+					"Produktų kiekis yra didesnis nei 0": true
+				},
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true,
+					"Statusas yra 200": true,
+					"Produktų kiekis yra didesnis nei 0": true
+				},
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true,
+					"Statusas yra 200": true,
+					"Produktų kiekis yra didesnis nei 0": true
+				},
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true,
+					"Statusas yra 200": true,
+					"Produktų kiekis yra didesnis nei 0": true
+				},
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true,
+					"Statusas yra 200": true,
+					"Produktų kiekis yra didesnis nei 0": true
+				},
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true,
+					"Statusas yra 200": true,
+					"Produktų kiekis yra didesnis nei 0": true
+				},
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true,
+					"Statusas yra 200": true,
+					"Produktų kiekis yra didesnis nei 0": true
+				},
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true,
+					"Statusas yra 200": true,
+					"Produktų kiekis yra didesnis nei 0": true
+				},
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true,
+					"Statusas yra 200": true,
+					"Produktų kiekis yra didesnis nei 0": true
+				},
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true,
+					"Statusas yra 200": true,
+					"Produktų kiekis yra didesnis nei 0": true
+				},
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true,
+					"Statusas yra 200": true,
+					"Produktų kiekis yra didesnis nei 0": true
+				},
+				{
+					"Status code is 2xx": true,
+					"Response Content-Type includes json, webp, jpg, or png": true,
+					"Response JSON does not contain 'error' element": true,
+					"Statusas yra 200": true,
+					"Produktų kiekis yra didesnis nei 0": true
+				}
+			]
+		}
+	],
+	"count": 24,
+	"totalTime": 3376,
+	"collection": {
+		"requests": [
+			{
+				"id": "0022a322-f5dc-4992-97c0-b13aec2254f0",
+				"method": "GET"
+			}
+		]
+	}
+}
